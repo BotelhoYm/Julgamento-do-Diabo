@@ -1,0 +1,1 @@
+body.glitch{animation:shake .15s 3}@keyframes shake{25%{transform:translate(2px,-2px)}50%{transform:translate(-2px,2px)}75%{transform:translate(2px,2px)}}
