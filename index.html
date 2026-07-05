@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Julgamento do Diabo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/glitch.css">
+
+</head>
+
+<body>
+
+    <!-- Fundo -->
+    <div id="background"></div>
+    <div id="fog"></div>
+    <div id="vignette"></div>
+    <div id="noise"></div>
+
+    <!-- Sangue -->
+    <div id="blood-top"></div>
+    <div id="blood-bottom"></div>
+
+    <!-- Flash -->
+    <div id="flash"></div>
+
+    <!-- Tremor -->
+    <div id="camera">
+
+        <main id="game">
+
+            <section id="intro">
+
+                <h1 id="title"></h1>
+
+                <p id="dialogue"></p>
+
+                <div id="continue" class="hidden">
+
+                    Clique para continuar
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Sons -->
+
+    <audio id="heartbeat" preload="auto"></audio>
+    <audio id="whisper" preload="auto"></audio>
+    <audio id="glitchSound" preload="auto"></audio>
+    <audio id="typeSound" preload="auto"></audio>
+    <audio id="ambient" preload="auto" loop></audio>
+
+    <script src="js/intro.js"></script>
+
+</body>
+
+</html>
